@@ -1,0 +1,223 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.net {
+    color: red;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.firstdiv {
+    display: flex;
+    justify-content: space-between;
+}
+.signin {
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 60px;
+    margin-top: 10px;
+    padding: 8px;
+    width: 80px;
+    border: none;
+    border-radius: 30px;
+}
+
+.sectionone {
+    background-image: url(background\ dark\ \(1\).JPG);
+    height: 100vh;
+    background-color:rgb(19, 4, 4, 0.575);
+    background-blend-mode: darken;
+}
+.seconddiv {
+    margin-top: 100px;
+}
+.start, .ready {
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    font-size: 80%;
+}
+.content, .show {
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.get {
+    padding: 2%;
+    border: none;
+    border-radius: 7%;
+    background-color: rgb(236, 22, 22);
+    color: white;
+    width: 18%;
+}
+.mail {
+    padding: 2%;
+    margin-left: 26%;
+    margin-right: 1%;
+    width: 25%;
+    background-color: rgb(52, 47, 47);
+    color: whitesmoke;
+    border: none;
+    border-radius: 7%;
+}
+
+.sectiontwo {
+    background-color: black;
+    height: 80vh;
+}
+
+.trend {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+}
+.imageseries {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 200px;
+    width: 100%;
+}
+.image {
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+.image:hover {
+    width: 70%;
+}
+.shapes {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100%;
+}
+.more {
+    background-color: black;
+    color: white;
+}
+.rect1, .rect2{
+    border: 1px solid black;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    padding-bottom: 0px;
+}
+.pic1{
+    margin-left: 80%;
+    margin-top: 0%;
+    border-radius: 20px;
+}
+.shapes2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 100%;
+}
+.rect3, .rect4 {
+    border: 1px solid black;
+    background-color: blueviolet;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    padding-bottom: 0px;
+}
+.img1 {
+    margin-left: 80%;
+    margin-top: 0%;
+    border-radius: 20px;
+}
+.sectionfive {
+   background-color: black;
+}
+.freq, .first {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first {
+    border: 1px solid black;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding: 1.5%;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+.freq {
+    margin-left: 8%;
+}
+.sectionsix {
+    background-color: black;
+    color: white;
+}
+.para {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.email_div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-top: 1%;
+}
+.email {
+    background-color: rgb(52, 47, 47);
+    padding: 1%;
+    width: 36.5%;
+    margin-left: 23%;
+    border: solid rgb(91, 82, 82);
+    border-radius: 5%;
+}
+.get_started {
+    margin-right: 25%;
+    width: 12%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+.question {
+    background-color: black;
+    color: white;
+    padding-top: 8%;
+    padding-left: 3%;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    background-color: black;
+    color: white;
+    font-size: 80%;
+    padding-left: 3%;
+}
+.language__drop__down {
+    background-color: black;
+    color: white;
+}
+.lan {
+    background-color: black;
+    padding-top: 4%;
+    padding-left: 3%;
+}
+.end {
+    background-color: black;
+    color: white;
+    padding-top: 3%;
+    padding-left: 3%;
+    font-size: 80%;
+    padding-bottom: 5%;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="Netflix logo.png">
+    <link rel="stylesheet" href="Netflixstyle.CSS">
+</head>
+<body>
+
+     <section>
+    <section class="sectionone">
+            <div class="firstdiv">
+            <b><h1 class="net">NETFLIX</h1></b> 
+            <button class="signin">signin</button> 
+            </div>
+     
+            <div class="seconddiv">
+            <h1 class="content"> Unlimited movies, TV <br></h1>
+            <h1 class="show">shows, and more</h1><br>
+            <p class="start"> Start at #2,200. Cancel anytime </p><br>
+            <p class="ready">Ready to watch? Enter your email to create or restart your membership </p>
+            </div> <br>
+
+            <div class="thirddiv">
+            <input class="mail" type="email" placeholder="Email address" id="email">
+            
+            <button class="get" onclick="getStarted()"><b>Get Started ></b></button>
+            </div>
+    </section>
+
+
+    <section class="sectiontwo">
+        <h1 class="trend">Trending now</h1><br>
+        <div class="imageseries">
+        <img src="love.JPG" alt="" class="image">
+        <img src="cruella.JPG" alt="" class="image">
+        <img src="girl.JPG" alt="" class="image">
+        <img src="magic camp.JPG" alt="" class="image">
+        <img src="pussy in boots.JPG" alt="" class="image">
+        <img src="revenge.JPG" alt="" class="image">
+        </div>
+    </section>
+
+
+    <h2 class="more">More Reasons to Join</h2>
+    <section class="sectionthree">
+    <div class="shapes">
+      <div class="rect1">
+        <h4 class="enjoy">Enjoy on your TV</h4>
+        <p class="watch">Watch on Smart TVs, Playstation, Xbox,Chromecast,Apple TV,Blue-ray players,and more.</p>
+        <img src="pic1.png" alt="" class="pic1">
+    </div>
+    <div class="rect2">
+        <h4 class="download">Download your showsto watch offline.</h4>
+        <p class="save">Save your favorites easily and always having something to watch.</p>
+        <img src="pic1.png" alt="" class="pic1">
+    </div>
+    </section>
+    <section class="sectionfour">
+        <div class="shapes2">
+        <div class="rect3">
+            <h4 class="watch">Watch everywhere</h4>
+            <p class="stream">Stream Unlimited movies and TV shows, on your phone, tablet, laptop and TV</p>
+            <img src="img1.png" alt="" class="img1">
+        </div>
+        <div class="rect4">
+            <h4 class="create">Create Profiles for Kids</h4>
+            <p class="send">Send kids on an adventures with there favorites characters in a space made just for them-free with your membership.</p>
+            <img src="img1.png" alt="" class="img1">
+        </div>
+    </section>
+
+    <section class="sectionfive">
+            <h2 class="freq">frequently Asked Questions</h2>
+        <div class="first">
+            <h2 class="what">What is Netflix</h2>
+            <h2 class="plus">+</h2>
+        </div>
+
+        <div class="first">
+            <h2 class="what">How much does Netflix Cost</h2>
+             <h2 class="plus">+</h2>
+        </div>
+        
+        <div class="first">
+            <h2 class="what">Where can I Watch</h2>
+             <h2 class="plus">+</h2>
+        </div>
+
+        <div class="first">
+            <h2 class="what">How do I Cancel</h2>
+             <h2 class="plus">+</h2>
+        </div>
+
+        <div class="first">
+            <h2 class="what">What can I Watch on Netflix</h2>
+             <h2 class="plus">+</h2>
+        </div>
+
+        <div class="first">
+            <h2 class="what">Is Netflix good for Kids</h2>
+             <h2 class="plus">+</h2>
+        </div>
+    </section>
+
+    <section class="sectionsix">
+        <p class="para">Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="email_div">
+        <input type="mail" class="email" placeholder="Email address">
+        <button class="get_started">Get Started ></button>
+    </div>
+    </section>
+
+<section class="sectionseven">
+    <p class="question"><u>Questions?Contact Us.</u></p>
+
+    <div class="options">
+        <div class="column__1">
+            <p><u>FAQ</u></p>
+            <p><u>Media Center</u></p>
+            <p><u>Ways to Watch</u></p>
+            <p><u>Cookie Preferences</u></p>
+            <p><u>Speed Test</u></p>
+        </div>
+        <div class="column__2">
+            <p><u>Help Center</u></p>
+            <p><u>Investor Relations</u></p>
+            <p><u>Terms of Use</u></p>
+            <p><u>Corporate Information</u></p>
+            <p><u>Legal Notices</u></p>
+        </div>
+        <div class="column__3">
+            <p><u>Account</u></p>
+            <p><u>Jobs</u></p>
+            <p><u>Privacy</u></p>
+            <p><u>Contact Us</u></p>
+            <p><u>Only on Netflix</u></p>
+        </div>
+    </div>
+    <div class="lan">
+        <select name="languages" id="languagesSelect" 
+        class="language__drop__down">
+        <option value="English">English</option>
+        <option value="Spanish">Español</option>
+        <option value="Arabic">العربي</option>
+        <option value="Hindu">中文</option>
+</select>
+    </div>
+    <div class="end">
+        <p>Netflix Nigeria</p>
+    </div>
+</section>
+
+
+    
+
+    
+    
+</body>
+</html>
+<script>
+    let users = []
+    let email = document.getElementById("email")
+    function getStarted() {
+        let user = {
+            email: email.value
+        }
+    users.push(user)
+    alert("Welcome")
+    console.log(user);
+    
+        
+    }
+</script>
